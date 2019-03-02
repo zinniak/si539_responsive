@@ -15,10 +15,15 @@ h1{
 	padding: 2px;
 	justify-content: center;
 	color: Black;
-	font-size: 350%;
+	font-size: 250%;
 	margin: auto;
 }
 
+#long_title{
+	display: block;
+	width: 90%;
+	text-align: center;
+}
 h3{
 	display: grid;
 	margin: auto;
@@ -32,7 +37,7 @@ header{
 }	
 
 footer{
-	height:15vh;
+	height:30vh;
 	display:grid;
 	justify-content: center;
 	padding:10px;
@@ -40,6 +45,43 @@ footer{
 	text-align: center;
 	background: black;
 	color: white;
+}
+
+.footer-text{
+	height: 100%;
+	display:grid;
+	justify-content: center;
+	padding:10px;
+	align-items: center;
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+.up{
+	height: 100%;
+	display: grid;
+	text-align: right;
+	font-size: 80%;
+	/*transition: ease-in 1 sec;*/
+}
+
+.up a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.up i{
+	font-size: 180%;
+}
+
+.up i:hover{
+	color: yellow;
+}
+
+.footer-text i:hover{
+	color: purple;
 }
 
 html {
@@ -378,6 +420,8 @@ li a:hover {
 	background: red;
 	color: white;
 }
+
+
 #organic, #halal{
 	background: white;
 	border: 5px solid black;
@@ -430,11 +474,12 @@ grid-template-columns: auto auto auto auto;
 }
 
 .event-page{
-	width: 75%;
+	width: 95%;
+	
 }
 
 .event{
-	width: 80%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -466,6 +511,26 @@ grid-template-columns: auto auto auto auto;
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
+#halal address{
+	margin-bottom: -13px;
+	margin-top: -3px;
+}
+
+/*#halal h4{
+	margin-bottom: -3px;
+}*/
+
+
+
+#veg address{
+	margin-bottom: -2px;
+}
+
+
+
+.up{
+	display: none;
+}
 
 @media screen and (prefers-reduced-motion: reduce) { 
 
