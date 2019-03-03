@@ -484,6 +484,7 @@ grid-template-columns: auto auto auto auto;
 	margin-right: auto;
 }
 
+
 .event img{
 	width: 50%;
 }
@@ -497,7 +498,7 @@ grid-template-columns: auto auto auto auto;
 
 @media screen and (min-width: 1100px) {
 
-	.gallery{
+.gallery{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	width: 90%;
@@ -516,11 +517,17 @@ grid-template-columns: auto auto auto auto;
 	margin-top: -3px;
 }
 
+.footer-text {
+	height: 50%;
+}
 /*#halal h4{
 	margin-bottom: -3px;
 }*/
 
-
+.event h2, a, p{
+	align-items: left;
+	text-align: left;
+}
 
 #veg address{
 	margin-bottom: -2px;
